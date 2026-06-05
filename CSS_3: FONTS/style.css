@@ -1,0 +1,33 @@
+@font-face{
+    src:url(fonts/PlaywriteAUVICGuides-Regular.ttf);
+    font-family: Shakespeer;
+}
+
+/*this is used to define the font from the folder which contains the ttf file, 
+the shakespeer and font-family is to add a name for it*/
+
+h2{
+    font-family: Shakespeer, arial;
+}
+
+h3{
+    font-family: Roboto;
+}
+
+h1{
+    font-family: verdana,arial;
+}
+/* fonts use fall backs, you may see font-family: verdana, arial. 
+This is in case verdana can't be used then it automatically provides arial.*/
+/* for spaced font names, use a ""*/
+
+/* normal font size is 16*/
+/* another measurement: 1 em = 1 times normal size (100%) */
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*another way to add more fonts locally is to use fonts folder
